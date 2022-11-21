@@ -27,7 +27,7 @@ public class ColorTester implements TestClass {
     }
 
     //Test that should succeed
-    public boolean testMultipleColorChange() throws Exception{
+    private boolean testMultipleColorChange() throws Exception{
         Color blue = Color.BLUE;
         Color green = Color.GREEN;
 
